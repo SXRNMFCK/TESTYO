@@ -1,0 +1,38 @@
+li {
+  list-style-type: none;
+}
+  
+
+
+.block {
+  display: inline-block;
+  width: 15%;
+  margin-right: 30px;
+}
+.block__second {
+  vertical-align: top;
+  display: inline-block;
+  width: 60%;
+  font-family: arial;
+  list-style-image: none;
+}
+.block__image {
+  border-radius: 60%;
+  -moz-border-radius: 60%;
+  -webkit-border-radius: 60%;
+  -khtml-border-radius: 60%;
+}
+
+.block__breadcrumbs {
+  color: rgb(206, 191, 191);
+  font-size: 12pt;
+  margin-bottom: 0.35em;
+}
+.block__caption {
+  margin-top: 0.35em;
+  font-size: 16pt;
+}
+.block__description {
+  font-size: 16pt;
+  color: rgb(44, 43, 43);
+}
