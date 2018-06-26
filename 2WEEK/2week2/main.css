@@ -72,14 +72,52 @@ body {
 }
 .header__contacts-worktime{}
 
-.banner{}
-.banner__img{}
+.banner{
+  background-color: #fff;
+  height: 685px;
+  vertical-align: middle;
+}
+.banner__img{
+  padding-top: 90px;
+}
 
-.features{}
-.features__caption-high{}
-.features__items{}
-.features__img{}
-.features__caption-low{}
+.features{
+  background-color: #131415
+}
+.features__caption-high{
+  font-family: OpenSans, sans-serif;
+  font-size: 49px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+
+}
+.features__items{
+  width: 200px;
+  height: 372;
+  display: inline-block;
+    
+}
+.features__items-img{
+  background-color: #f89513;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  text-align: center;
+
+}
+.features__img{
+  margin-top: 25%;
+  height: 35px;
+  width: 35px;
+  }
+.features__caption-low{
+  font-family: OpenSans, sans-serif;
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  
+}
 .features__paragraph{}
 .features__list{}
 .features__list-item{}
